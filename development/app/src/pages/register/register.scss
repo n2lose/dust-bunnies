@@ -1,0 +1,31 @@
+page-register {
+  .list-ios {
+    margin: 50px 0;
+  }
+  .item-ios {
+    background: transparent;
+  }
+  .label-ios[stacked], .label-android[stacked] {
+    font-size: 1.8rem;
+    color: #7D747D;
+  }
+  .list-ios > .item-block:first-child, .list-android > .item-block:first-child {
+     border-top: none;
+  }
+  .list-ios .item-block .item-inner, .list-android .item-block .item-inner {
+    border-bottom: 0.55px solid #CE4D6A;
+  }
+  .list-ios > .item-block:last-child .item-inner, .list-ios > .item-wrapper:last-child .item-block .item-inner {
+    border-bottom: 0.55px solid #CE4D6A;
+  }
+  .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+    border-bottom: none;
+  }
+  button {
+    background: transparent;
+  }
+  button ion-icon {
+    font-size: 4.2rem;
+    color: #CE4D6A;
+  }
+}
